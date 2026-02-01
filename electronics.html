@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="Images/logo.png"  class="logo"  alt="Logo"></a>
+    
+    <div>
+        <ul id="navbar">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+    <a href="#" id="close"><i class="fa fa-times"></i></a>
+</ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+
+
+<section id="product1" class="section-p1">
+   <p class="caption">Elevate Your Everyday</p>
+    <div class="pro-container">
+        <div class="pro" onclick="window.location.href='singpro-elec.html';">
+            <img src="Images/Products/proapp1.jpg" style="height: 65%;">
+            <div class="des">
+                <span>Bajaj </span>
+                <h5>Bajaj DX-6 1000 Watts Dry Iron </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$110</h4>
+            </div>
+            <a onclick="addToCart(
+  'Bajaj DX-6 1000 Watts Dry Iron',
+  110,
+  'Images/Products/proapp1.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro" onclick="window.location.href='singpro-elec.html';">
+            <img src="Images/Products/proapp2.jpg" style="height: 65%;" >
+            <div class="des">
+                <span>Philips</span>
+                <h5>Philips -Hair Dryer 1000W</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$73</h4>
+            </div>
+            <a onclick="addToCart(
+  'Philips -Hair Dryer 1000W',
+  73,
+  'Images/Products/proapp2.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+
+           <div class="pro"  onclick="window.location.href='singpro-elec.html';">
+<img src="Images/Products/proapp3.jpg" style="height: 70%;">
+            <div class="des">
+                <span>Milton</span>
+                <h5>Milton Rapid Electric Kettle 1.8L</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$63</h4>
+            </div>
+            <a onclick="addToCart(
+  'Milton Rapid Electric Kettle 1.8L',
+  63,
+  'Images/Products/proapp3.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro"  onclick="window.location.href='singpro-elec.html';">
+<img src="Images/Products/proapp4.jpg" style="height: 65%;">
+            <div class="des">
+                <span>BELOXY Store </span>
+                <h5>Portable Blender Electric Juicers Fruit Mixers </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$69</h4>
+            </div>
+            <a onclick="addToCart(
+  'Portable Blender Electric Juicers Fruit Mixers ',
+  69,
+  'Images/Products/proapp4.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+         <div class="pro" onclick="window.location.href='singpro-elec.html';">
+<img src="Images/Products/proapp5.jpg" style="height: 65%;" >
+            <div class="des">
+                <span>Milton </span>
+                <h5>Milton Royal Express 800W Griller Sandwich Maker & Toaster </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$95</h4>
+            </div>
+            <a onclick="addToCart(
+  'Milton Royal Express 800W Griller Sandwich Maker & Toaster ',
+  95,
+  'Images/Products/proapp5.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro" onclick="window.location.href='singpro-elec.html';">
+
+<img src="Images/Products/proapp6.jpg" style="width: 80%;">
+            <div class="des">
+                <span>Nirvana Luxe</span>
+                <h5>Boat 2026 Launch Nirvana Luxe </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a onclick="addToCart(
+  'Boat 2026 Launch Nirvana Luxe ',
+  99,
+  'Images/Products/proapp6.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro" onclick="window.location.href='singpro-elec.html';">
+
+<img src="Images/Products/proapp7.jpg" style="width: 80%;">
+            <div class="des">
+                <span> THE BATTERY STORE</span>
+                <h5>Headphone Jack Adapter</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$51</h4>
+            </div>
+            <a onclick="addToCart(
+  'Headphone Jack Adapter',
+  51,
+  'Images/Products/proapp7.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+     
+
+        <div class="pro"  onclick="window.location.href='singpro-elec.html';">
+            <img src="Images/Products/proapp8.jpg" style="height: 65%;">
+            <div class="des">
+                <span>Boat</span>
+                <h5>Boat Airdopes Joy </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$62</h4>
+            </div>
+            <a onclick="addToCart(
+  'Boat Airdopes Joy',
+  62,
+  'Images/Products/proapp8.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+    </div>
+
+
+</section>
+
+<section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fa fa-long-arrow-alt-right"></i></a>
+
+
+</section>
+
+<footer class="section-p1">
+ 
+    <div class="col">
+        <img class="logo" src="Images/logo.png" alt="Logo">
+        <h3>Contact:</h3>
+        <p><strong>Address:</strong>#42, 3rd Floor, Lotus Tech Park,
+        100 Feet Road, Indiranagar,
+        Bengaluru, Karnataka - 560038 </p>
+        <p><strong>Phone No:</strong> +91 80 4123 4567 </p>
+        <p><strong>Hours:</strong>10:00 - 21:00 , Mon - Sat</p>
+
+        <div class="follow">
+            <h4>Follow Us</h4>
+             <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+             </div>
+        </div>
+    </div>
+    <div class="col">
+    <h3>About</h3>
+    <a href="#">About Us</a>
+    <a href="#">Delivery Status</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms and Conditions</a>
+    <a href="#">Contact Us</a>
+
+    </div>
+
+    <div class="col">
+    <h3>My Account</h3>
+    <a href="#">Sign In</a>
+    <a href="#">View Cart</a>
+    <a href="#">Track My Order</a>
+    <a href="#">Help</a>
+ </div>
+
+</footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

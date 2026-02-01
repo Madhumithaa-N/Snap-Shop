@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="Images/logo.png"  class="logo"  alt="Logo"></a>
+    
+    <div>
+        <ul id="navbar">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+    <a href="#" id="close"><i class="fa fa-times"></i></a>
+</ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+<!-- 1 -->
+      <section id="prodetails" class="section-p1">
+   <div class="single-pro-img">
+    <img src="Images/Products/proapp1.jpg" id="MainImg" alt="">
+   </div>
+   <div class="single-pro-details">
+    <h5>Bajaj </h5>
+    <h4>Bajaj DX-6 1000 Watts Dry Iron </h4>
+    <h2>$110</h2>
+   
+    <input type="number" value="1">
+    <button onclick="addToCart(
+  'Bajaj DX-6 1000 Watts Dry Iron',
+  110,
+  'Images/Products/proapp1.jpg'
+)">Add To Cart</button>
+    <div class="cont">
+    <h4>-- Product Details --</h4>
+    <ul>
+        <li>1000W dry iron for efficient ironing. </li>
+        <li>Thermol fuse safety & auto shut-off</li>
+        <li>Advanced soleplate with anti-bacterial German coating</li>
+        <li>Cool-touch body for safe handling</li>
+    </ul>
+      </div>
+    </div> 
+   </section>
+   <hr>
+<!-- 2 -->
+      <section id="prodetails" class="section-p1">
+   <div class="single-pro-img">
+    <img src="Images/Products/proapp2.jpg" style="height: 60%; width: 50%;" id="MainImg" alt="">
+   </div>
+   <div class="single-pro-details">
+    <h5>Philips</h5>
+    <h4>Philips -Hair Dryer 1000W</h4>
+    <h2>$73</h2>
+   
+    <input type="number" value="1">
+    <button onclick="addToCart(
+  'Philips -Hair Dryer 1000W',
+  73,
+  'Images/Products/proapp2.jpg'
+)">Add To Cart</button>
+    <div class="cont">
+    <h4>-- Product Details --</h4>
+    <ul>
+        
+        <li>Advanced concentrator technology with quick-heat head. </li>
+        <li>Thermo protect temperature setting.</li>
+        <li>Compact design for easy handling; easy storage hook for convenient storage.</li>
+        <li>There are two settings for drying speed (low, high); the motor speed is regulated to cater to these settings perfectly. There will not be any issue on fan speeds at low, high settings.</li>
+        
+    </ul>
+      </div>
+    </div> 
+   </section>
+   <hr>
+<!-- 3 -->
+   <section id="prodetails" class="section-p1">
+   <div class="single-pro-img">
+    <img src="Images/Products/proapp3.jpg" id="MainImg" alt="">
+   </div>
+   <div class="single-pro-details">
+    <h5>Milton</h5>
+    <h4>Milton Rapid Electric Kettle 1.8L</h4>
+    <h2>$63</h2>
+    
+    <input type="number" value="1">
+    <button onclick="addToCart(
+  'Milton Rapid Electric Kettle 1.8L',
+  63,
+  'Images/Products/proapp3.jpg'
+)">Add To Cart</button>
+    <div class="cont">
+    <h4>-- Product Details --</h4>
+    <ul>
+        <li>1.8L Family-Size Capacity – Ideal Electric Kettle for Home & Office This Milton electric kettle lets you boil up to 1.8 litres at once.</li>
+        <li> Auto Shut-Off Feature – Safe & Smart Electric Kettle for Daily Use Equipped with automatic Shut-off and dry-boil protection.</li>
+        <li>Fast Boiling Technology – Efficient Water Kettle Electric Enjoy rapid boiling with this time-saving water kettle electric.</li>
+        <li> Travel-Friendly & Lightweight – Your Go-To Kettle Electric Designed for portability, this kettle electric is a great travel companion. </li>
+    </ul>
+      </div>
+    </div> 
+   </section>
+<hr>
+<!-- 4 -->
+<section id="prodetails" class="section-p1">
+   <div class="single-pro-img">
+    <img src="Images/Products/proapp4.jpg" id="MainImg" alt="">
+   </div>
+   <div class="single-pro-details">
+    <h5>BELOXY Store</h5>
+    <h4>Portable Blender Electric Juicers Fruit Mixers </h4>
+    <h2>$69</h2>
+   
+    <input type="number" id="qty" value="1" min="1">
+
+<button onclick="addToCart(
+  'Portable Blender Electric Juicers Fruit Mixers ',
+  69,
+  'Images/Products/proapp4.jpg'
+)" >
+    Add To Cart
+</button>
+    <div class="cont">
+    <h4>-- Product Details --</h4>
+    <ul>
+        
+        <li> Portable Blender with Extra 𝐋𝐢𝐝】 -This hand blender for kitchen has the design of 1800mah 𝐫𝐞𝐜𝐡𝐚𝐫𝐠𝐞𝐚𝐛𝐥𝐞 𝐛𝐚𝐭𝐭𝐞𝐫𝐲, and 𝐫𝐞𝐦𝐨𝐯𝐚𝐛𝐥𝐞 𝐛𝐚𝐬𝐞.Compact design and perfect size for a personal blender without taking up much space.</li>
+        <li> This small blender mixer for shakes and smoothies uses the latest technology of magnetic induction, so the blades can only rotate properly after the bottle and base are tightened.</li>
+        <li> The 𝐢𝐧𝐜𝐥𝐮𝐝𝐞𝐝 𝐜𝐥𝐞𝐚𝐧𝐢𝐧𝐠 𝐛𝐫𝐮𝐬𝐡 is used for fine clean, no need to worry about not cleaning properly.</li>
+        <li>Multi-use purposes for making protein drinks, blending with coconut oil or coffee powder.</li>
+        
+    </ul>
+      </div>
+    </div> 
+   </section>
+   <hr>
+   
+<!-- 5 -->
+ <section id="prodetails" class="section-p1">
+   <div class="single-pro-img">
+    <img src="Images/Products/proapp5.jpg" id="MainImg" alt="">
+   </div>
+   <div class="single-pro-details">
+    <h5>Milton </h5>
+    <h4>Milton Royal Express 800W Griller Sandwich Maker & Toaster </h4>
+    <h2>$95</h2>
+    <input type="number" value="1">
+    <button onclick="addToCart(
+  'Milton Royal Express 800W Griller Sandwich Maker & Toaster ',
+  95,
+  'Images/Products/proapp5.jpg'
+)">Add To Cart</button>
+    <div class="cont">
+    <h4>-- Product Details --</h4>
+    <ul>
+        
+        <li> 800W Power for Quick & Efficient Cooking – Grill sandwiches faster with the 800-watt heating system, ensuring evenly toasted results in less time. </li>
+        <li> Auto Cut Off & LED Power Indicators – Enjoy safe, worry-free operation with automatic cut-off and clear LED indicators that show when the appliance is ready to use.</li>
+        <li> Durable Die-Cast Large Aluminium Plates for Reliable Performance – Built to last, the die-cast aluminium grill plates ensure consistent grilling and trouble-free performance every time.</li>
+        <li>Auto Cut Off & LED Power Indicators – Enjoy safe, worry-free operation with automatic cut-off and clear LED indicators that show when the appliance is ready to use.</li>
+    </ul>
+      </div>
+    </div> 
+   </section>
+   <hr>
+
+   <!-- 6 -->
+ <section id="prodetails" class="section-p1">
+   <div class="single-pro-img">
+    <img src="Images/Products/proapp6.jpg" id="MainImg" alt="">
+   </div>
+   <div class="single-pro-details">
+    <h5>Nirvana Luxe</h5>
+    <h4>Boat 2026 Launch Nirvana Luxe</h4>
+    <h2>$99</h2>
+   
+    <input type="number" value="1">
+    <button onclick="addToCart(
+  'Boat 2026 Launch Nirvana Luxe ',
+  99,
+  'Images/Products/proapp6.jpg'
+)">Add To Cart</button>
+    <div class="cont">
+    <h4>-- Product Details --</h4>
+    <ul>
+        
+        <li> boAt 360˚ Spatial Audio: Crafted for audio lovers and party enthusiasts, this speaker adds a cinematic dimension to everyday music and entertainment.</li>
+        <li>100 W boAt Signature Sound:Powered by 100 W boAt Signature Sound, it delivers punchy bass and rich audio for an immersive experience that is perfect for binge-watching OTT shows or vibing to the latest chartbusters!</li>
+        <li> NFC Pairing (*Android): With NFC pairing, just tap your Android device to the speaker for an instant connection. Enjoy a quick and easy way to start playing music in no time!</li>
+        <li> RGB LEDs:  Featuring 3 distinct LED modes, this speaker enhances every moment with mood-matching visuals.</li>
+    </ul>
+      </div>
+    </div> 
+   </section>
+   <hr>
+
+     <!-- 7 -->
+ <section id="prodetails" class="section-p1">
+   <div class="single-pro-img">
+    <img src="Images/Products/proapp7.jpg" id="MainImg"  alt="">
+   </div>
+   <div class="single-pro-details">
+    <h5>THE BATTERY STORE</h5>
+    <h4>Headphone Jack Adapter</h4>
+    <h2>$51.00</h2>
+
+    <input type="number" value="1">
+    <button onclick="addToCart(
+  'Headphone Jack Adapter',
+  51,
+  'Images/Products/proapp7.jpg'
+)">Add To Cart</button>
+    <div class="cont">
+    <h4>-- Product Details --</h4>
+    <ul>
+        
+        <li> High Performance:plitter for Audio / Charger: The wire inside each adapter is lined with toughened carbon fiber, and the pins are designed to withstand sustained use.  </li>
+        <li> 2 In 1 Function: Our headphone adapter supports up to 24-bit / 48 kHz audio output. In addition, it not only supports charging and listening to music, but also supports remote controls and microphones. Audio and charging are synchronized.</li>
+        <li> Plug and Play:Just insert your charger or earphones into the corresponding port and then it works, no App needed, no additional software needed. Enjoy your music anytime anywhere.</li>
+        
+    </ul>
+      </div>
+    </div> 
+   </section>
+   <hr>
+
+   <!-- 8 -->
+ <section id="prodetails" class="section-p1">
+   <div class="single-pro-img">
+    <img src="Images/Products/proapp8.jpg" id="MainImg" alt="">
+   </div>
+   <div class="single-pro-details">
+    <h5>Boat</h5>
+    <h4>Boat Airdopes Joy</h4>
+    <h2>$62</h2>
+   
+    <input type="number" value="1">
+    <button onclick="addToCart(
+  'Boat Airdopes Joy',
+  62,
+  'Images/Products/proapp8.jpg'
+)">Add To Cart</button>
+    <div class="cont">
+    <h4>-- Product Details --</h4>
+    <ul>
+        
+        <li> Low Latency BEAST Mode: Experience lag-free high-quality gaming with low latency of up to 50 ms. Visuals align with impactful audio for realistic action.</li>
+        <li> Extensive Playtime: Up to 35 hours of performance gives you plenty of time to listen to your preferred tunes.</li>
+        <li> boAt Signature Sound: Powered by dual 13 mm drivers, these earbuds deliver matchless boAt Signature sound with superior bass.</li>
+        <li> ASAP Charging: 10 minutes of charging yields about 120 minutes of seamless performance. </li>
+        
+    </ul>
+      </div>
+    </div> 
+   </section>
+   <hr>
+
+ 
+
+   <!-- Featured products-->
+   <section id="product1" class="section-p1">
+    <h2>FEATURED PRODUCTS</h2>
+    <p> ~~ Exclusive picks you’ll love ~~</p>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="Images/Products/pro9.avif">
+            <div class="des">
+                <span>Monjolika Fashion</span>
+                <h5>Pre-stitched Concept Saree </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$68</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/pro15.avif">
+            <div class="des">
+                <span>Majestic Man</span>
+                <h5>Men Classic Slim Fit Pure Cotton Casual Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$55</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/pro5.jpg">
+            <div class="des">
+                <span>SG SIROTA</span>
+                <h5>Reyon Short Top for Women </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$49</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proacc6.webp">
+            <div class="des">
+                <span>Miss Highness</span>
+                <h5>Pure Sterling Ring for Women and Girls</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$190</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proapp4.jpg">
+            <div class="des">
+                <span>Preethi</span>
+                <h5>Portable 6-Blade Juicer Blender </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$45</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proacc3.png">
+            <div class="des">
+                <span>NoiseFit</span>
+                <h5>NoiseFit Halo 1.43" AMOLED Display, Bluetooth Calling Round Dial Smart Watch</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$87</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proapp5.jpg">
+            <div class="des">
+                <span>Milton </span>
+                <h5>Milton Royal Express 800W Griller Sandwich Maker & Toaster </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$39</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proacc5.webp">
+            <div class="des">
+                <span>CAPITEUM Store</span>
+                <h5>Stylish Sport Baseball Cap & Stylish Aviator Wayfarer Sunglass</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$20</h4>
+            </div>
+            <a href="#"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+    </div>
+
+
+</section>
+
+<footer class="section-p1">
+ 
+    <div class="col">
+        <img class="logo" src="Images/logo.png" alt="Logo">
+        <h3>Contact:</h3>
+        <p><strong>Address:</strong>#42, 3rd Floor, Lotus Tech Park,
+        100 Feet Road, Indiranagar,
+        Bengaluru, Karnataka - 560038 </p>
+        <p><strong>Phone No:</strong> +91 80 4123 4567 </p>
+        <p><strong>Hours:</strong>10:00 - 21:00 , Mon - Sat</p>
+
+        <div class="follow">
+            <h4>Follow Us</h4>
+             <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+             </div>
+        </div>
+    </div>
+    <div class="col">
+    <h3>About</h3>
+    <a href="#">About Us</a>
+    <a href="#">Delivery Status</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms and Conditions</a>
+    <a href="#">Contact Us</a>
+
+    </div>
+
+    <div class="col">
+    <h3>My Account</h3>
+    <a href="#">Sign In</a>
+    <a href="#">View Cart</a>
+    <a href="#">Track My Order</a>
+    <a href="#">Help</a>
+ </div>
+
+</footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

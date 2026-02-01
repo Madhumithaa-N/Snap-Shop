@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap Shop</title>
+    <link rel="icon" href="Images/webicon.png" type="image/png">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="Images/logo.png"  class="logo"  alt="Logo"></a>
+    
+    <div>
+        <ul id="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+    <a href="#" id="close"><i class="fa fa-times"></i></a>
+</ul>
+</div>
+<div id="mobile">
+    <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+    <i id="bar" class="fas fa-outdent"></i>
+
+</div>
+</section>
+       <section id="hero">
+  <div class="hero-content">
+    <h4>Super-value deals</h4>
+    <h1>On all accessories, electronics and clothing!</h1>
+    <p>Save more with coupons and up to 50% off!</p>
+    <button>Shop Now</button>
+  </div>
+
+  
+</section>
+
+<section id="feature" class="section-p1">
+     <div class="fe-box">
+        <img src="Images/features/curatecollec.jpg" alt="Curated Collection">
+        <h5>Curated Collection</h5>
+    </div>
+    <div class="fe-box">
+        <img src="Images/features/orderonline.png" alt="Order Online">
+        <h5>Order Online</h5>
+    </div>
+    <div class="fe-box">
+        <img src="Images/features/giftcards.png" alt="Gift Cards">
+        <h5>Gift Cards</h5>
+    </div>
+    <div class="fe-box">
+        <img src="Images/features/savemoney.avif" alt="Save Money">
+        <h5>Save Money</h5>
+    </div>
+    <div class="fe-box">
+        <img src="Images/features/timesupp.jpg" alt="24/7 Support">
+        <h5>24/7 Support</h5>
+    </div>
+</section>
+
+<section id="product1" class="section-p1">
+    <h2>FEATURED PRODUCTS</h2>
+    <p> ~~ Exclusive picks you’ll love ~~</p>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="Images/Products/pro9.avif">
+            <div class="des">
+                <span>Monjolika Fashion</span>
+                <h5>Pre-stitched Concept Saree </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$68</h4>
+            </div>
+            <a onclick="addToCart(
+  'Pre-stitched Concept Saree ',
+  68,
+  'Images/Products/pro9.avif'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/pro15.avif">
+            <div class="des">
+                <span>Majestic Man</span>
+                <h5>Men Classic Slim Fit Pure Cotton Casual Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$55</h4>
+            </div>
+            <a onclick="addToCart(
+  'Men Classic Slim Fit Pure Cotton Casual Shirt',
+  55,
+  'Images/Products/pro15.avif'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/pro5.jpg">
+            <div class="des">
+                <span>SG SIROTA</span>
+                <h5>Reyon Short Top for Women </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$49</h4>
+            </div>
+            <a onclick="addToCart(
+  'Reyon Short Top for Women',
+  49,
+  'Images/Products/pro5.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proacc6.webp">
+            <div class="des">
+                <span>Miss Highness</span>
+                <h5>Pure Sterling Ring for Women and Girls</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$190</h4>
+            </div>
+            <a onclick="addToCart(
+  'Pure Sterling Ring for Women and Girls',
+  190,
+  'Images/Products/proacc6.webp'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proapp4.jpg">
+            <div class="des">
+                <span>BELOXY Store </span>
+                <h5>Portable Blender Electric Juicers Fruit Mixers </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$69</h4>
+            </div>
+            <a onclick="addToCart(
+  'Portable Blender Electric Juicers Fruit Mixers',
+  69,
+  'Images/Products/proapp4.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proacc3.png" style="height: 50%;" >
+            <div class="des">
+                <span>NoiseFit</span>
+                <h5>NoiseFit Halo 1.43" AMOLED Display, Bluetooth Calling Round Dial Smart Watch</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$87</h4>
+            </div>
+            <a onclick="addToCart(
+  'NoiseFit',
+  87,
+  'Images/Products/proacc3.png'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proapp5.jpg">
+            <div class="des">
+                <span>Milton </span>
+                <h5>Milton Royal Express 800W Griller Sandwich Maker & Toaster </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$39</h4>
+            </div>
+            <a onclick="addToCart(
+  'Milton Royal Express 800W Griller Sandwich Maker & Toaster',
+  39,
+  'Images/Products/proapp5.jpg'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="Images/Products/proacc5.webp">
+            <div class="des">
+                <span>CAPITEUM Store</span>
+                <h5>Stylish Sport Baseball Cap & Stylish Aviator Wayfarer Sunglass</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h4>$20</h4>
+            </div>
+            <a onclick="addToCart(
+  'Stylish Sport Baseball Cap & Stylish Aviator Wayfarer Sunglass',
+  20,
+  'Images/Products/proacc5.webp'
+)"><i class="fa fa-shopping-cart  cart" ></i></a>
+        </div>
+    </div>
+
+
+</section>
+
+<section id="banner" class="section-m1">
+    <h4>Repair Services</h4>
+    <h2>Upto <span>50% off</span> - All Accessories</h2>
+    <button class="normal">Explore More</button>
+</section>
+
+<section id="banner-3">
+    <div class="banner-box">
+        <h2>SEASONAL SALE</h2>
+        <h3>Summer Collection-50% Off</h3>
+    </div>
+
+    <div class="banner-box box2">
+        <h2>SEASON'S BEST PICKS</h2>
+        <h3>Summer Collection-50% Off</h3>
+    </div>
+
+    <div class="banner-box box3">
+        <h2>LIMITED TIME OFFERS</h2>
+        <h3>Summer Collection-50% Off</h3>
+    </div>
+</section>
+
+
+<footer class="section-p1">
+ 
+    <div class="col">
+        <img class="logo" src="Images/logo.png" alt="Logo">
+        <h3>Contact:</h3>
+        <p><strong>Address:</strong>#42, 3rd Floor, Lotus Tech Park,
+        100 Feet Road, Indiranagar,
+        Bengaluru, Karnataka - 560038 </p>
+        <p><strong>Phone No:</strong> +91 80 4123 4567 </p>
+        <p><strong>Hours:</strong>10:00 - 21:00 , Mon - Sat</p>
+
+        <div class="follow">
+            <h4>Follow Us</h4>
+             <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+             </div>
+        </div>
+    </div>
+    <div class="col">
+    <h3>About</h3>
+    <a href="#">About Us</a>
+    <a href="#">Delivery Status</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms and Conditions</a>
+    <a href="#">Contact Us</a>
+
+    </div>
+
+    <div class="col">
+    <h3>My Account</h3>
+    <a href="#">Sign In</a>
+    <a href="#">View Cart</a>
+    <a href="#">Track My Order</a>
+    <a href="#">Help</a>
+ </div>
+
+</footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
